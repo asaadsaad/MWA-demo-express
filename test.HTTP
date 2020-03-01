@@ -1,0 +1,14 @@
+GET http://localhost:3000/books
+
+###
+
+POST http://localhost:3000/books
+content-type: application/json
+
+{"name": "Asaad"}
+
+###
+
+DELETE http://localhost:3000/books/1
+
+
